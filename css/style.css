@@ -233,17 +233,26 @@
     .about-text  {
         padding-right: calc(((100% - 960px) / 2) + .75rem);
     }
+    .about-text2  {
+        padding-left: calc(((50% - 960px) / 2) + .75rem);
+    }
 }
 
 @media (min-width: 1200px) {
     .about-text  {
         padding-right: calc(((100% - 1140px) / 2) + .75rem);
     }
+    .about-text  {
+        padding-left: calc(((50% - 1140px) / 2) + .75rem);
+    }
 }
 
 @media (min-width: 1400px) {
     .about-text  {
         padding-right: calc(((100% - 1320px) / 2) + .75rem);
+    }
+    .about-text  {
+        padding-left: calc(((50% - 1320px) / 2) + .75rem);
     }
 }
 
