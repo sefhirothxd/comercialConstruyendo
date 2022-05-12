@@ -1,0 +1,76 @@
+/* THIS CSS IS FOR WHATSAPP BTN */
+.whatsapp {
+	position: fixed;
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
+	right: 20px;
+	bottom: 90px;
+	border: none;
+	color: #fff;
+	background: #00d56b;
+	outline: none;
+	transition: 0.3s;
+	text-align: center;
+	line-height: 45px;
+	z-index: 999;
+	animation-name: animacion1;
+  animation-duration: 2s;
+	animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+.comentario {
+	position: fixed;
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
+	right: 20px;
+	bottom: 10px;
+	border: none;
+	color: #fff;
+	background: #003A84;
+	outline: none;
+	transition: 0.3s;
+	text-align: center;
+	line-height: 45px;
+	z-index: 10;
+	animation-name: animacion1;
+  animation-duration: 2s;
+	animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+@keyframes animacion1 {
+from{
+  
+		bottom: 10px;
+  }
+to{
+    
+		bottom: 30px;
+  }
+}
+.whatsapp svg {
+	transition: 0.3s;
+	margin-top: 10px;
+	margin-left: 2px;
+}
+.comentario svg {
+	transition: 0.3s;
+	margin-top: 14px;
+}
+/* @media (max-width: 500px) {
+	.whatsapp {
+		width: 50px;
+		height: 50px;
+		line-height: 35px;
+		bottom: 25px;
+		right: 15px;
+	}
+	.whatsapp svg {
+		transition: 0.3s;
+		width: 30px;
+		margin-top: 2px;
+	}
+} */
