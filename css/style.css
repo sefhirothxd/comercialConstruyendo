@@ -306,6 +306,14 @@
     }
 }
 
+/*
+img aqui
+*/
+.img-materiales{
+    width: 408px;
+    max-height: 275px;
+    object-fit: cover;
+}
 
 /*** Project Portfolio ***/
 #portfolio-flters li {
