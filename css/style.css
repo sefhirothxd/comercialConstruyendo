@@ -393,6 +393,9 @@ img aqui
     .quote-text  {
         padding-right: calc(((100% - 960px) / 2) + .75rem);
     }
+    .espacio{
+        margin-right:10px;
+    }
 }
 
 @media (min-width: 1200px) {
