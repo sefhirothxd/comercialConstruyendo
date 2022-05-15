@@ -595,3 +595,17 @@ img aqui
 .footer .copyright a:hover {
   color: var(--primary);
 }
+
+
+.btn-cotizar{
+  background: #fff;
+  color:var(--primary);
+  padding: 2px 8px;
+  border-radius:10px;
+  font-size: 20px;
+  margin: 0 auto;
+}
+.btn-cotizar:hover{
+  background:var(--primary);
+  color:#fff;
+}
