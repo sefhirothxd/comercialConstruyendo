@@ -512,7 +512,7 @@
 									ejecutivos especializados atenderán tus dudas, recibirán tus
 									comentarios y te brindarán el servicio que requieres.
 								</p>
-								<form>
+								<form class="formulario">
 									<div class="row g-3">
 										<div class="col-12 col-sm-6">
 											<input
@@ -520,6 +520,8 @@
 												class="form-control border-0"
 												placeholder="Nombre"
 												style="height: 55px"
+												id="nombre"
+												name="nombre"
 											/>
 										</div>
 										<div class="col-12 col-sm-6">
@@ -528,6 +530,8 @@
 												class="form-control border-0"
 												placeholder="Apellido"
 												style="height: 55px"
+												id="apellido"
+												name="apellido"
 											/>
 										</div>
 										<div class="col-12 col-sm-6">
@@ -536,6 +540,8 @@
 												class="form-control border-0"
 												placeholder="Correo"
 												style="height: 55px"
+												id="correo"
+												name="correo"
 											/>
 										</div>
 										<div class="col-12 col-sm-6">
@@ -544,6 +550,8 @@
 												class="form-control border-0"
 												placeholder="Telefono"
 												style="height: 55px"
+												id="telefono"
+												name="telefono"
 											/>
 										</div>
 										<!-- <div class="col-12 col-sm-6">
@@ -558,6 +566,8 @@
 											<textarea
 												class="form-control border-0"
 												placeholder="Mensaje"
+												name="mensaje"
+												id="mensaje"
 											></textarea>
 										</div>
 										<div class="col-12">
@@ -628,7 +638,7 @@
 						<a href="#nosotros" class="btn btn-link">Nosotros</a>
 						<a href="#contacto" class="btn btn-link">Contacto</a>
 					</div>
-					<div class="col-lg-3 col-md-6">
+					<!-- <div class="col-lg-3 col-md-6">
 						<h5 class="text-white mb-4">Galería de proyectos</h5>
 						<div class="row g-2">
 							<div class="col-4">
@@ -650,7 +660,7 @@
 								<img class="img-fluid rounded" src="img/gallery-6.jpg" alt="" />
 							</div>
 						</div>
-					</div>
+					</div> -->
 					<div class="col-lg-3 col-md-6">
 						<h5 class="text-white mb-4">Ubícanos</h5>
 						<p class="mb-2">
@@ -677,9 +687,8 @@
 								style="color: #9b9b9b"
 								>construyendogladys@gmail.com</a
 							>
-							<!-- construyendogladys@gmail.com -->
 						</p>
-						<!-- <div class="d-flex pt-2">
+						<div class="d-flex pt-2">
 							<a class="btn btn-square btn-outline-light btn-social" href=""
 								><i class="fab fa-twitter"></i
 							></a>
@@ -692,7 +701,7 @@
 							<a class="btn btn-square btn-outline-light btn-social" href=""
 								><i class="fab fa-linkedin-in"></i
 							></a>
-						</div> -->
+						</div>
 					</div>
 				</div>
 			</div>
@@ -732,5 +741,6 @@
 
 		<!-- Template Javascript -->
 		<script src="js/main.js"></script>
+		<script src="js/formulario.js"></script>
 	</body>
 </html>
