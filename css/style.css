@@ -225,6 +225,17 @@
   color: var(--light);
 }
 
+.contenedor-banner-text{
+  justify-content: center;
+  align-items:flex-end;
+  position: absolute;
+  bottom: 10px;
+  left:0;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
 /*** About ***/
 @media (min-width: 992px) {
   .container.about {
