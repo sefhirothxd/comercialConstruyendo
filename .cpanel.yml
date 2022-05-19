@@ -1,0 +1,12 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/comercialconstruyendogladys/public_html/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp .gitignore $DEPLOYPATH
+    - /bin/cp -R img $DEPLOYPATH
+    - /bin/cp -R ae $DEPLOYPATH
+    - /bin/cp -R en $DEPLOYPATH
+    - /bin/cp -R il $DEPLOYPATH
+    - /bin/cp -R lib $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
